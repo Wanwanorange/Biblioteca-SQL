@@ -9,4 +9,9 @@ select member.name
 	group by member.name
 	having count(member.name) > 1;
 
+-- Answer:
+-- Anand Beck
+-- Frank Smith
+
+
 

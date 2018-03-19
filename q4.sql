@@ -15,3 +15,5 @@ select distinct member.id, member.name, book.title
  	checkout_item.member_id = member.id and
  	checkout_item.book_id = book.id and
 	book.title = 'The Pragmatic Programmer';
+
+-- Answer: 43|Wanchen Yao|The Pragmatic Programmer
